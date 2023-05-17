@@ -1,0 +1,350 @@
+/* changealog 15.02.2023 */
+/* woo-commmerce */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.woo-com{
+  padding: 50px 0;
+}
+
+.heading-woo h3{
+  color: #121212;
+  font-weight: 400;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.add-product-details{
+  margin-bottom: 45px;
+}
+.woform-1 .form-control{
+  padding: 3px 8px;
+font-size: 1.5em;
+line-height: 100%;
+height: 1.7em;
+width: 100%;
+outline: 0;
+margin: 0 0 3px;
+background-color: #fff;
+}
+.woo-product-description{
+  border: 1px solid #888888;
+ 
+  background-color: #fff;
+}
+.woo-product-description .text-top{
+  padding: 10px;
+}
+.woo-product-description .text-top h6{
+  color: #121212;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.woo-product-description .add-media{
+  padding: 10px;
+}
+
+
+/* Removes the default input */
+.woo-product-description .add-media input[type="file"] {
+  display: none;
+}
+
+
+/*Sets the thumnail list */
+.woo-product-description .add-media a{
+-webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.woo-product-description .add-media .wrapper {
+	width: 100%;
+	margin: -3px auto 0;
+	background-color: #FFFFFF;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.woo-product-description .add-media .container:after{
+content:"";
+clear:both;
+display:table;
+}
+
+.woo-product-description .add-media .container{
+padding:10px 0 10px 10px;
+}
+.woo-product-description .add-media .box{
+border: 1px dashed #fff;
+box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ddd, 0 0 0 10px #fff, 0 0 2px 10px #eee;
+}
+.woo-product-description .add-media .wrapper .box{
+float:left;
+width:78px;
+height:80px;
+margin:0 10px 10px 0;
+background-color:#CCCCCC;
+
+}
+
+.woo-product-description #idlabel {
+	display: inline-block;
+	/* width: 20px; */
+	/* height: 30px; */
+	line-height: 1;
+	vertical-align: middle;
+	margin: 0 2px;
+	color: #2271b1;
+	border: 1px solid #2271b1;
+	padding: 6px;
+	margin: 6px 0px 2px;
+	border-radius: 4px;
+	font-weight: 500;
+  cursor: pointer;
+}
+.woo-product-description #idlabel span{
+  font-size: 16px;
+}
+
+.woo-product-description .tool {
+	font-size: 9px;
+	height: 16px;
+	width: 16px;
+	padding: 0px;
+	border-radius: 30px;
+}
+
+/* text editor pro */
+
+.text-editor-pro {
+	padding: 10px;
+}
+.text-editor-pro .tab-menu ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: end;
+}
+.text-editor-pro .tab-menu ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.text-editor-pro .tab-menu ul li a{
+	text-decoration: none;
+	color: rgba(0,0,0,0.4);
+	background-color: #b4cbc4;
+	padding: 7px 25px;
+	border-radius: 4px;
+  background: #f0f0f1;
+color: #646970;
+cursor: pointer;
+font-size: 13px;
+}
+.text-editor-pro .tab-menu ul li a.active-a{
+	background-color: #414141;
+	color: #ffffff;
+}
+.text-editor-pro .tab{
+	display: none;
+}
+.text-editor-pro .tab h2{
+	color: rgba(0,0,0,.7);
+}
+.text-editor-pro .tab p{
+	color: rgba(0,0,0,0.6);
+	text-align: justify;
+}
+.text-editor-pro .tab-active{
+	display: block;
+}
+
+/* editor pro-max */
+#text {
+	background-color: transparent;
+	color: #121211;
+	text-transform: capitalize;
+	/* padding: 8px 16px; */
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	width: 100%;
+	min-height: 300px;
+	border: 1px solid #ddd;
+	/* margin: 70px; */
+	/* box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19); */
+	margin-top: 23px;
+}
+.tab button {
+	background: #f1f1f1;
+	border: navajowhite;
+	padding: 4px 9px;
+}
+
+.tab select {
+	background: #f1f1f1;
+	border: navajowhite;
+	padding: 4px 9px;
+}
+
+.tab button:hover,
+.tab select:hover{
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+  cursor:pointer;
+}
+
+.tab .btv {
+	/* position: absolute; */
+	/* top: 0; */
+	/* left: 5%; */
+	/* margin: 20px 65px !important; */
+	border: 0px solid #ddd;
+	background: #fff;
+	cursor: pointer;
+	display: inline-block;
+}
+
+
+/* part-2 */
+
+.scolpu .tab-cont{
+  float: left;
+  width: 30%;
+  background-color: #eee;
+  height: 100%;
+  border-right: 1px solid #d1d1d1;
+}
+.scolpu .tab-cont button{
+  width: 100%;
+  background-color: inherit;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.scolpu .tab-cont button:hover{
+  background-color: #ccc;
+}
+.scolpu .tab-content{
+  
+  height: 100%;
+  float: left;
+  padding: 20px;
+  width: 70%;
+  animation: anime 1s 
+
+}
+
+.scolpu .tab-content h2{
+  font-size: 24px;
+  font-weight: 400;
+  margin: 20px 0 10px 0;
+  
+}
+.scolpu tab-content p{
+  font-weight: 100;
+  color: #666;
+  margin-top: 20px
+}
+.scolpu .tab-cont .but.active{
+  background-color: #b4b4b4;
+}
+
+.add-media-2{
+  padding: 20px 15px;
+}
+.add-media-2 .form-label {
+	margin-bottom: .5rem;
+	font-size: 14px;
+}
+.by-2{
+  opacity: 0;
+}
+
+
+
+.box {
+  position: relative;
+  background: #ffffff;
+  width: 100%;
+}
+
+.box-header {
+  color: #444;
+  display: block;
+  padding: 10px;
+  position: relative;
+  border-bottom: 1px solid #f4f4f4;
+  margin-bottom: 10px;
+}
+
+.box-tools {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.dropzone-wrapper {
+	border: 2px dashed #91b0b3;
+	color: #92b0b3;
+	position: relative;
+	height: 150px;
+	margin-bottom: 20px;
+}
+
+.dropzone-desc {
+	/* position: absolute; */
+	margin: 39px auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	/* width: 40%; */
+	top: 50px;
+	font-size: 16px;
+}
+.dropzone, .dropzone:focus {
+	/* position: absolute; */
+	/* outline: none !important; */
+	width: 100%;
+	/* height: 150px; */
+	cursor: pointer;
+	opacity: 10;
+	padding: 23px 0px;
+  display: none;
+}
+.dropzone-wrapper:hover,
+.dropzone-wrapper.dragover {
+  background: #ecf0f5;
+}
+.drag-drop {
+	padding-bottom: 20px;
+}
+
+.drag-drop button{
+  background-color: #2271b1!important;
+  color: #fff;
+}
+.preview-zone {
+  text-align: center;
+}
+
+.preview-zone .box {
+  box-shadow: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+
+
+
+
